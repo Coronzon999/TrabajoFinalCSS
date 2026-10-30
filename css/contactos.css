@@ -40,6 +40,66 @@ textarea {
     font-family: "poppins";
 }
 
+.menu{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--colorPrimario);
+    border: .1px solid var(--colorDivisor);   
+    gap: 25em;
+}
+
+.menu__img-logo{
+    height: 75px;
+
+}
+
+.menu__btn-menu{
+    display: none;
+    
+}
+
+.menu__enlaces a{
+    padding: 0.7em;
+    text-align: center;
+    font-size: 1em;
+    text-decoration: none;
+    color: var(--colorTitulos);
+    font-weight: 500;
+    transition: color 1s ease;
+}
+
+.menu__enlaces a:hover{
+    color: var(--colorClick);
+}
+
+@media screen and (max-width: 1023px){
+    .menu{
+        flex-direction: column;
+    }
+    .menu__logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding: 1em;
+    }
+    .menu__btn-menu{
+        display: block;
+        color: var(--colorClick);
+        font-size: 1.5em;
+    }  
+
+    .menu__enlaces{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .formulario__boton {
     font-family: "poppins";
     color: var(--colorTarjetas);
