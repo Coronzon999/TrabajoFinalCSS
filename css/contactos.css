@@ -1,0 +1,120 @@
+:root{
+  --colorPrimario: #0B0B0B;
+  --colorTarjetas: #111111;
+  --colorDivisor: #222222;
+  --colorTitulos: #fff;
+  --colorParrafo: #AAAAAA;
+  --colorClick: #00ADB5;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body {
+    background-image: url(../img/Contactos.jpg);
+    background-size: cover;
+}
+
+input {
+    width: 100%;
+    margin: auto;
+    font-family: "poppins";
+    border: 2px solid var(--colorPrimario);
+    border-radius: 10px;
+}
+
+label {
+    color: var(--colorParrafo);
+    font-family: "poppins";
+    font-weight: 800;
+}
+
+textarea {
+    width: 100%;
+    min-height: 100px;
+    max-height: 200px;
+    border-radius: 10px;
+    font-family: "poppins";
+}
+
+.formulario__boton {
+    font-family: "poppins";
+    color: var(--colorTarjetas);
+    border-radius: 10px;
+    border: 2px solid #27272a;
+    margin: auto;
+    width: 100%;
+    padding: 0.5em;
+    background-color: rgba(219, 210, 235, 0.795);
+}
+
+.formulario__boton:hover {
+    background-color: #9D8EC4;
+}
+
+.formulario__titulo {
+    color: var(--colorTitulos);
+    text-align: center;
+    font-family: "poppins";
+    font-weight: 700;
+}
+
+.formulario__base{
+    background-color: #16161a;
+    align-items: center;
+    margin: auto;
+    border: 10px solid #27272a;
+    width: min(600px);
+    padding: 1em;
+    border-radius: 20px;
+}
+
+.formulario__base:hover {
+    border-color: #3f3f46;
+    box-shadow: 0 15px 40 px rgba(0, 0, 0, 0.7),
+                0 0 20px rgba(139, 92, 246, 0.1);
+}
+
+@media screen and (max-width: 860px) {
+    .formulario__base{
+        padding: 0.1em;
+        width: min(350px);
+    }
+    body {
+        background-image: url(../img/contactos_02.jpg);
+    }
+}
+
+/* INICIO DE FOOTER */
+/* 
+footer{
+    background-color: #0c0c0e;
+    border-top: 1px solid #27272a;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.iconos-pie{
+    position: absolute;
+    font-size: 3em;
+}
+
+.iconos-pie:hover{
+    color: var(--colorTitulos);
+}
+
+.pie, .info{
+    font-family: "poppins";
+    font-weight: 500;
+}
+
+.derechos{
+    background-color: var(--colorDivisor);
+    color: #dfe0e0;
+    font-family: "poppins";
+    padding: 0.1em 0;
+} */
+/* FIN DE FOOTER */
