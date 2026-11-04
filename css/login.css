@@ -5,7 +5,7 @@
 }
 
 :root {
-      --color-fondo: #000000;
+    --color-fondo: #000000;
     --color-texto: #ffffff;
     --color-acento: #ffffff;
     --color-formulario: #111111;
@@ -17,6 +17,7 @@
     --color-interaccion: #00ADB5;   
     --color-divisor: #222222;
 
+}
 body {
     background-color: var(--color-fondo);
     color: var(--color-texto);
