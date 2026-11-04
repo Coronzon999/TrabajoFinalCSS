@@ -28,7 +28,7 @@ body{
     align-items: center;
     background-color: var(--colorPrimario);
     border: .1px solid var(--colorDivisor);   
-    gap: 25em;
+    gap: 35em;
 }
 
 .menu__img-logo{
