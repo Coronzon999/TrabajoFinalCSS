@@ -148,7 +148,18 @@ textarea {
     }
 }
 
+.contacto__mapa{
+    width: 100%;
+    max-width: 800px;
+}
+
 /* INICIO DE FOOTER */
+.contacto__mapa iframe{
+    display: block;
+    width: 100%;
+    height: 630px;
+    border: 0;
+}
 /* 
 footer{
     background-color: #0c0c0e;
