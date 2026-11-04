@@ -348,11 +348,16 @@ footer{
     font-weight: 700;
 }
 
-.parrafo__footer {
+.cuerpo__footer {
   display: flex;
   gap: 9px;
   line-height: 2em;               
   
+}
+
+.parrafo__footer{
+    color: var(--colorParrafo);
+    line-height: 2em;
 }
 
 /* FIN DE FOOTER */
