@@ -1,6 +1,10 @@
+<<<<<<< Updated upstream
 /* =========================================
    RESETEO Y VARIABLES EN ESPAÑOL
 ========================================== */
+=======
+
+>>>>>>> Stashed changes
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +16,7 @@
     --color-texto: #ffffff;
     --color-acento: #ffffff;
     --color-formulario: #111111;
+<<<<<<< Updated upstream
     --color-tarjeta: #0b0b0b;
     --color-borde: #333333;
     --fuente-principal: 'Poppins', sans-serif;
@@ -19,6 +24,14 @@
     --color-titulos: #ffffff;
     --color-parrafo: #AAAAAA;
     --color-interaccion: #00ADB5;
+=======
+    --color-borde: #333333;
+    --fuente-principal: 'Poppins';
+    --color-primario: #0B0B0B;     
+    --color-titulos: #ffffff;
+    --color-parrafo: #AAAAAA;
+    --color-interaccion: #00ADB5;   
+>>>>>>> Stashed changes
     --color-divisor: #222222;
 }
 
@@ -32,9 +45,13 @@ body {
     overflow-x: hidden;
 }
 
+<<<<<<< Updated upstream
 /* =========================================
    MENÚ DE NAVEGACIÓN
 ========================================== */
+=======
+   /* MENÚ DE NAVEGACIÓN */
+>>>>>>> Stashed changes
 .menu {
     width: 100%;
     margin: auto;
@@ -99,9 +116,13 @@ body {
     }
 }
 
+<<<<<<< Updated upstream
 /* =========================================
    ESTRUCTURA CENTRADA (TARJETA TIPO SIGN UP)
 ========================================== */
+=======
+/* TARJETAS */
+>>>>>>> Stashed changes
 .contenedor-centrado {
     display: flex;
     justify-content: center;
@@ -260,6 +281,7 @@ body {
     background-color: transparent;
     color: var(--color-acento);
 }
+<<<<<<< Updated upstream
 
 /* PIE DE PÁGINA */
 .pie-registro {
@@ -289,3 +311,5 @@ body {
         border-radius: 12px;
     }
 }
+=======
+>>>>>>> Stashed changes
