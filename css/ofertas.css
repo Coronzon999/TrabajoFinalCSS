@@ -71,3 +71,121 @@ body {
         flex-direction: column;
     }
 }
+
+.titulo__oferta{
+    text-align: center;
+    font-family: "poppins";
+    font-size: 4em;
+    color: var(--colorTitulos);
+}
+
+.seccion__1{
+    box-shadow: 0 10px 20px var(--colorClick)
+}
+.seccion__2{
+    box-shadow: 0 10px 20px var(--colorClick)
+}
+
+.titulo__destacado {
+    text-align: center;
+    font-family: "poppins";
+    font-size: 4em;
+    color: var(--colorTitulos);
+}
+
+.shadow {
+    box-shadow: 0 10px 20px var(--colorClick);
+}
+.link__descuento{
+    text-decoration: none;
+    color: var(--colorParrafo);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transition: color 1s ease;
+}
+
+.link__descuento:hover{
+    color: var(--colorClick);
+}
+
+.subtitulo__oferta {
+    color: var(--colorTitulos);
+}
+
+.encabezado__categoria {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link__más {
+    color: var(--colorParrafo);
+    /* text-decoration: none; */
+}
+
+.link__más:hover {
+    color: var(--colorClick);
+}
+
+
+footer{
+    background-color: #0c0c0e;
+    border-top: 1px solid #27272a;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.iconos-pie{
+    position: absolute;
+    font-size: 3em;
+}
+
+.iconos-pie:hover{
+    color: var(--colorTitulos);
+}
+
+.pie, .info{
+    font-family: "poppins";
+    font-weight: 500;
+}
+
+.derechos{
+    background-color: var(--colorDivisor);
+    color: #dfe0e0;
+    font-family: "poppins";
+    padding: 0.1em 0;
+} 
+
+@media screen and (max-width: 1023px){
+    .menu{
+        flex-direction: column;
+    }
+    .menu__logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding: 1em;
+    }
+    .menu__btn-menu{
+        display: block;
+        color: var(--colorClick);
+        font-size: 1.5em;
+    }  
+
+    .menu__enlaces{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .titulo__destacado{
+    font-size: 3.2em;
+    text-align: center;
+    }
+    .titulo__oferta{
+    font-size: 3.2em;
+    text-align: center;
+    }
+}
+
