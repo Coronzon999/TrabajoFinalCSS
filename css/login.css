@@ -1,7 +1,3 @@
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 * {
     margin: 0;
     padding: 0;
@@ -14,22 +10,14 @@
     --color-acento: #ffffff;
     --color-formulario: #111111;
     --color-borde: #333333;
-<<<<<<< Updated upstream
-    --fuente-principal: 'Poppins', sans-serif;
-    --color-primario: #0B0B0B;
-    --color-titulos: #ffffff;
-    --color-parrafo: #AAAAAA;
-    --color-interaccion: #00ADB5;
-=======
     --fuente-principal: 'Poppins';
     --color-primario: #0B0B0B;      
     --color-titulos: #ffffff;
     --color-parrafo: #AAAAAA;
     --color-interaccion: #00ADB5;   
->>>>>>> Stashed changes
     --color-divisor: #222222;
-}
 
+}
 body {
     background-color: var(--color-fondo);
     color: var(--color-texto);
@@ -40,13 +28,7 @@ body {
     overflow-x: hidden;
 }
 
-<<<<<<< Updated upstream
-/* =========================================
-   MENÚ DE NAVEGACIÓN
-========================================== */
-=======
 /* MENU DE NAVEGACION */
->>>>>>> Stashed changes
 .menu {
     width: 100%;
     margin: auto;
@@ -111,13 +93,7 @@ body {
     }
 }
 
-<<<<<<< Updated upstream
-/* =========================================
-   ESTRUCTURA DIVIDIDA (LOGIN)
-========================================== */
-=======
 /* FORMULARIO */
->>>>>>> Stashed changes
 .contenedor-login {
     display: flex;
     flex: 1;
@@ -130,15 +106,6 @@ body {
 .login-izquierda {
     width: 45%;
     max-width: 550px;
-<<<<<<< Updated upstream
-    padding: 40px 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: var(--color-primario);
-    border-right: 1px solid var(--color-borde);
-    z-index: 10;
-=======
     display: flex;
     background-color: var(--color-primario);
     border-right: 1px solid var(--color-borde);
@@ -147,7 +114,6 @@ body {
     justify-content: flex-start; 
     padding: 30px;              
     gap: 25px;
->>>>>>> Stashed changes
 }
 
 .cabecera-login {
@@ -172,15 +138,12 @@ body {
     color: var(--color-parrafo);
 }
 
-<<<<<<< Updated upstream
-=======
 .frase-login{
     font-size: 2em;
     color: var(--color-parrafo);
     
 }
 
->>>>>>> Stashed changes
 .subtitulo-login a {
     color: var(--color-interaccion);
     text-decoration: none;
@@ -272,10 +235,6 @@ body {
     text-decoration: underline;
 }
 
-<<<<<<< Updated upstream
-/* BOTÓN INICIAR SESIÓN */
-=======
->>>>>>> Stashed changes
 .boton-login {
     width: 100%;
     padding: 12px;
@@ -297,30 +256,6 @@ body {
     color: var(--color-acento);
 }
 
-<<<<<<< Updated upstream
-/* PIE DE PÁGINA */
-.pie-login {
-    margin-top: 25px;
-    font-size: 0.75em;
-    color: #555;
-    text-align: center;
-}
-
-.enlaces-pie {
-    margin-top: 5px;
-}
-
-.enlaces-pie a {
-    color: #777;
-    text-decoration: none;
-}
-
-.enlaces-pie a:hover {
-    color: var(--color-texto);
-}
-
-=======
->>>>>>> Stashed changes
 /* COLUMNA DERECHA: BANNER */
 .login-derecha {
     flex: 1;
