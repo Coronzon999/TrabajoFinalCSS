@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> feature/Melvin
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +17,7 @@
     --color-acento: #ffffff;
     --color-formulario: #111111;
     --color-borde: #333333;
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     --fuente-principal: 'Poppins', sans-serif;
     --color-primario: #0B0B0B;
@@ -21,12 +25,18 @@
     --color-parrafo: #AAAAAA;
     --color-interaccion: #00ADB5;
 =======
+=======
+
+>>>>>>> feature/Melvin
     --fuente-principal: 'Poppins';
     --color-primario: #0B0B0B;      
     --color-titulos: #ffffff;
     --color-parrafo: #AAAAAA;
     --color-interaccion: #00ADB5;   
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> feature/Melvin
     --color-divisor: #222222;
 }
 
@@ -40,6 +50,7 @@ body {
     overflow-x: hidden;
 }
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 /* =========================================
    MENÚ DE NAVEGACIÓN
@@ -47,6 +58,14 @@ body {
 =======
 /* MENU DE NAVEGACION */
 >>>>>>> Stashed changes
+=======
+
+/* =========================================
+   MENÚ DE NAVEGACIÓN
+========================================== */
+
+/* MENU DE NAVEGACION */
+>>>>>>> feature/Melvin
 .menu {
     width: 100%;
     margin: auto;
@@ -111,6 +130,7 @@ body {
     }
 }
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 /* =========================================
    ESTRUCTURA DIVIDIDA (LOGIN)
@@ -118,6 +138,9 @@ body {
 =======
 /* FORMULARIO */
 >>>>>>> Stashed changes
+=======
+
+>>>>>>> feature/Melvin
 .contenedor-login {
     display: flex;
     flex: 1;
@@ -130,7 +153,10 @@ body {
 .login-izquierda {
     width: 45%;
     max-width: 550px;
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+>>>>>>> feature/Melvin
     padding: 40px 50px;
     display: flex;
     flex-direction: column;
@@ -138,7 +164,10 @@ body {
     background-color: var(--color-primario);
     border-right: 1px solid var(--color-borde);
     z-index: 10;
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> feature/Melvin
     display: flex;
     background-color: var(--color-primario);
     border-right: 1px solid var(--color-borde);
@@ -147,7 +176,11 @@ body {
     justify-content: flex-start; 
     padding: 30px;              
     gap: 25px;
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+
+>>>>>>> feature/Melvin
 }
 
 .cabecera-login {
@@ -172,15 +205,22 @@ body {
     color: var(--color-parrafo);
 }
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
+=======
+
+>>>>>>> feature/Melvin
 .frase-login{
     font-size: 2em;
     color: var(--color-parrafo);
     
 }
 
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> feature/Melvin
 .subtitulo-login a {
     color: var(--color-interaccion);
     text-decoration: none;
@@ -272,10 +312,16 @@ body {
     text-decoration: underline;
 }
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 /* BOTÓN INICIAR SESIÓN */
 =======
 >>>>>>> Stashed changes
+=======
+
+/* BOTÓN INICIAR SESIÓN */
+
+>>>>>>> feature/Melvin
 .boton-login {
     width: 100%;
     padding: 12px;
@@ -297,8 +343,12 @@ body {
     color: var(--color-acento);
 }
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 /* PIE DE PÁGINA */
+=======
+
+>>>>>>> feature/Melvin
 .pie-login {
     margin-top: 25px;
     font-size: 0.75em;
@@ -319,8 +369,11 @@ body {
     color: var(--color-texto);
 }
 
+<<<<<<< HEAD
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> feature/Melvin
 /* COLUMNA DERECHA: BANNER */
 .login-derecha {
     flex: 1;

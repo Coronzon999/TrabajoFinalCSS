@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 /* =========================================
    RESETEO Y VARIABLES EN ESPAÑOL
@@ -5,6 +6,10 @@
 =======
 
 >>>>>>> Stashed changes
+=======
+
+
+>>>>>>> feature/Melvin
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +21,10 @@
     --color-texto: #ffffff;
     --color-acento: #ffffff;
     --color-formulario: #111111;
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+>>>>>>> feature/Melvin
     --color-tarjeta: #0b0b0b;
     --color-borde: #333333;
     --fuente-principal: 'Poppins', sans-serif;
@@ -24,14 +32,20 @@
     --color-titulos: #ffffff;
     --color-parrafo: #AAAAAA;
     --color-interaccion: #00ADB5;
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> feature/Melvin
     --color-borde: #333333;
     --fuente-principal: 'Poppins';
     --color-primario: #0B0B0B;     
     --color-titulos: #ffffff;
     --color-parrafo: #AAAAAA;
     --color-interaccion: #00ADB5;   
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> feature/Melvin
     --color-divisor: #222222;
 }
 
@@ -45,6 +59,7 @@ body {
     overflow-x: hidden;
 }
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 /* =========================================
    MENÚ DE NAVEGACIÓN
@@ -52,6 +67,8 @@ body {
 =======
    /* MENÚ DE NAVEGACIÓN */
 >>>>>>> Stashed changes
+=======
+>>>>>>> feature/Melvin
 .menu {
     width: 100%;
     margin: auto;
@@ -116,6 +133,7 @@ body {
     }
 }
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 /* =========================================
    ESTRUCTURA CENTRADA (TARJETA TIPO SIGN UP)
@@ -123,6 +141,9 @@ body {
 =======
 /* TARJETAS */
 >>>>>>> Stashed changes
+=======
+
+>>>>>>> feature/Melvin
 .contenedor-centrado {
     display: flex;
     justify-content: center;
@@ -281,7 +302,10 @@ body {
     background-color: transparent;
     color: var(--color-acento);
 }
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+>>>>>>> feature/Melvin
 
 /* PIE DE PÁGINA */
 .pie-registro {
@@ -311,5 +335,8 @@ body {
         border-radius: 12px;
     }
 }
+<<<<<<< HEAD
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> feature/Melvin
