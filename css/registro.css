@@ -1,6 +1,4 @@
-/* =========================================
-RESETEO Y VARIABLES EN ESPAÑOL
-========================================== */
+
 * {
     margin: 0;
     padding: 0;
@@ -32,9 +30,8 @@ body {
     overflow-x: hidden;
 }
 
-/* =========================================
-MENÚ DE NAVEGACIÓN
-========================================== */
+
+/* MENÚ DE NAVEGACIÓN */
 .menu {
     width: 100%;
     margin: auto;
@@ -99,9 +96,9 @@ MENÚ DE NAVEGACIÓN
     }
 }
 
-/* =========================================
-ESTRUCTURA CENTRADA (TARJETA TIPO SIGN UP)
-========================================== */
+
+/* ESTRUCTURA CENTRADA  */
+
 .contenedor-centrado {
     display: flex;
     justify-content: center;

@@ -10,14 +10,14 @@
     --color-acento: #ffffff;
     --color-formulario: #111111;
     --color-borde: #333333;
-    --fuente-principal: 'Poppins', sans-serif;
+    --fuente-principal: 'Poppins';
     --color-primario: #0B0B0B;      
     --color-titulos: #ffffff;
     --color-parrafo: #AAAAAA;
     --color-interaccion: #00ADB5;   
     --color-divisor: #222222;
-}
 
+}
 body {
     background-color: var(--color-fondo);
     color: var(--color-texto);
@@ -28,9 +28,7 @@ body {
     overflow-x: hidden;
 }
 
-/* =========================================
-   MENÚ DE NAVEGACIÓN
-========================================== */
+/* MENU DE NAVEGACION */
 .menu {
     width: 100%;
     margin: auto;
@@ -95,9 +93,7 @@ body {
     }
 }
 
-/* =========================================
-   ESTRUCTURA DIVIDIDA (LOGIN)
-========================================== */
+/* FORMULARIO */
 .contenedor-login {
     display: flex;
     flex: 1;
@@ -110,13 +106,13 @@ body {
 .login-izquierda {
     width: 45%;
     max-width: 550px;
-    padding: 40px 50px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     background-color: var(--color-primario);
     border-right: 1px solid var(--color-borde);
     z-index: 10;
+    flex-direction: column;
+    justify-content: flex-start; 
+    padding: 30px;              
     gap: 25px;
 }
 
@@ -142,7 +138,7 @@ body {
     color: var(--color-parrafo);
 }
 
-.frase-login {
+.frase-login{
     font-size: 2em;
     color: var(--color-parrafo);
 }
@@ -238,7 +234,6 @@ body {
     text-decoration: underline;
 }
 
-/* BOTÓN INICIAR SESIÓN */
 .boton-login {
     width: 100%;
     padding: 12px;
@@ -258,27 +253,6 @@ body {
 .boton-login:hover {
     background-color: transparent;
     color: var(--color-acento);
-}
-
-/* PIE DE PÁGINA */
-.pie-login {
-    margin-top: 25px;
-    font-size: 0.75em;
-    color: #555;
-    text-align: center;
-}
-
-.enlaces-pie {
-    margin-top: 5px;
-}
-
-.enlaces-pie a {
-    color: #777;
-    text-decoration: none;
-}
-
-.enlaces-pie a:hover {
-    color: var(--color-texto);
 }
 
 /* COLUMNA DERECHA: BANNER */
