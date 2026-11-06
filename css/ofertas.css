@@ -51,6 +51,7 @@ body {
 @media screen and (max-width: 1023px){
     .menu{
         flex-direction: column;
+        gap: 0;
     }
     .menu__logo{
         display: flex;
