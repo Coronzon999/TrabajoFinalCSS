@@ -5,19 +5,20 @@
 }
 
 :root {
+    --colorPrimario: #0B0B0B;
     --color-fondo: #000000;
     --color-texto: #ffffff;
     --color-acento: #ffffff;
     --color-formulario: #111111;
     --color-borde: #333333;
-    --fuente-principal: 'Poppins';
-    --color-primario: #0B0B0B;      
+    --fuente-principal: 'Poppins', sans-serif;
+    --color-primario: #0B0B0B;       
     --color-titulos: #ffffff;
     --color-parrafo: #AAAAAA;
     --color-interaccion: #00ADB5;   
     --color-divisor: #222222;
-
 }
+
 body {
     background-color: var(--color-fondo);
     color: var(--color-texto);
@@ -28,22 +29,21 @@ body {
     overflow-x: hidden;
 }
 
-/* MENU DE NAVEGACION */
+/* MENÚ DE NAVEGACIÓN */
 .menu {
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     background-color: var(--color-primario);
-    border-bottom: 1px solid var(--color-divisor);
-    padding: 0 2em;
+    border-bottom: 1px solid var(--color-divisor);   
+    padding: 0 3em;
 }
 
 .menu__img-logo {
-    height: 65px;
-    object-fit: contain;
+    height: 75px;
 }
 
 .menu__btn-menu {
@@ -58,7 +58,7 @@ body {
 .menu__enlaces a {
     padding: 0.7em;
     text-align: center;
-    font-size: 0.95em;
+    font-size: 1em;
     text-decoration: none;
     color: var(--color-titulos);
     font-weight: 500;
@@ -72,33 +72,40 @@ body {
 @media screen and (max-width: 1023px) {
     .menu {
         flex-direction: column;
-        padding: 1em;
+        padding: 0;
     }
+    
     .menu__logo {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
         width: 100%;
+        padding: 1em;
     }
+
     .menu__btn-menu {
         display: block;
         color: var(--color-interaccion);
         font-size: 1.5em;
+        cursor: pointer;
     }   
+
     .menu__enlaces {
         width: 100%;
         display: flex;
         flex-direction: column;
         gap: 0;
+        padding-bottom: 1em;
     }
 }
 
-/* FORMULARIO */
+/* CONTENEDOR LOGIN SPLIT */
 .contenedor-login {
     display: flex;
     flex: 1;
-    width: 100vw;
-    min-height: calc(100vh - 67px);
+    width: 100%;
+    min-height: calc(100vh - 75px);
     background-color: var(--color-fondo);
 }
 
@@ -111,13 +118,13 @@ body {
     border-right: 1px solid var(--color-borde);
     z-index: 10;
     flex-direction: column;
-    justify-content: flex-start; 
-    padding: 30px;              
+    justify-content: center;
+    padding: 40px 50px; 
     gap: 25px;
 }
 
 .cabecera-login {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .logo-login {
@@ -138,9 +145,10 @@ body {
     color: var(--color-parrafo);
 }
 
-.frase-login{
-    font-size: 2em;
+.frase-login {
+    font-size: 1.5em;
     color: var(--color-parrafo);
+    font-weight: 500;
 }
 
 .subtitulo-login a {
@@ -286,6 +294,7 @@ body {
         width: 100%;
         max-width: 100%;
         padding: 40px 30px;
+        border-right: none;
     }
 
     .login-derecha {
